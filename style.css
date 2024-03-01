@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#circle {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 88, 44);
+    border-radius: 50%;
+    display: flex;
+}
+
+#square {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+}
+
+#triangle {
+    border-left: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(255, 255, 255);
+    display: none;
+}
+
+button {
+    padding: 10px;
+    margin: 8px;
+}
